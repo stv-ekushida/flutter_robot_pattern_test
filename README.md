@@ -4,5 +4,5 @@ Robot Pattern
 ## Run the Integration Test 
 
 ```
-flutter test integration_test/counter_test.dart
+flutter test integration_test/scenarios/counter_test.dart
 ```
