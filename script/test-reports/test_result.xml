@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite errors="0" failures="0" tests="2" skipped="0" name=".Users.ekushida.development.source.flutter_robot_test.integration_test.scenarios.counter" timestamp="2024-08-02T04:54:48">
+    <properties>
+      <property name="platform" value="vm"/>
+    </properties>
+    <testcase classname=".Users.ekushida.development.source.flutter_robot_test.integration_test.scenarios.counter" name="Counter test FABをタップしてカウントアップするテスト" time="1.20"/>
+    <testcase classname=".Users.ekushida.development.source.flutter_robot_test.integration_test.scenarios.counter" name="Counter test FABをタップしてカウントアップするテスト(MAX2)" time="1.455"/>
+    <system-out>Warning: integration_test plugin was not detected.
+
+If you're running the tests with `flutter drive`, please make sure your tests
+are in the `integration_test/` directory of your package and use
+`flutter test $path_to_test` to run it instead.
+
+If you're running the tests with Android instrumentation or XCTest, this means
+that you are not capturing test results properly! See the following link for
+how to set up the integration_test plugin:
+
+https://flutter.dev/docs/testing/integration-tests#testing-on-firebase-test-lab
+</system-out>
+  </testsuite>
+</testsuites>

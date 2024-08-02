@@ -8,8 +8,7 @@ void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
   group('Counter test', () {
-    testWidgets('tap on the floating action button, verify counter',
-        (tester) async {
+    testWidgets('FABをタップしてカウントアップするテスト', (tester) async {
       await tester.pumpWidget(const MyApp());
 
       final robot = MyHomePageRobot(tester);
